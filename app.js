@@ -10,7 +10,7 @@ const PORT=process.env.PORT;
 
 app.use(cors(
     {    
-         origin:["http://localhost:3000"],
+         origin:["https://65e5427442cf7e10e91f96af--resilient-wisp-bc948a.netlify.app"],
         methods:["POST","GET"],
         credentials:true
     }
